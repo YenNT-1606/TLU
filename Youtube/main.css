@@ -1,0 +1,147 @@
+*, *::after,*::before{
+    box-sizing:border-box;
+    margin:0px;
+    padding:0px;
+}
+html,body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #e1e2f3;
+    height: 100vh;
+}
+i{
+    font-size:15px;
+    color: #606060;
+}
+.header {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 56px;
+    width: 100%;
+    padding: 15px;
+    background-color: white;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+.bars{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.infor{
+    display:flex;
+    align-items: center;
+}
+.infor img{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+.bars {
+    width: 110px;
+    height: 20px;
+}
+.bar-button{
+    border: none;
+    background-color: white;
+    margin-right:20px;
+}
+.yt-icon{
+    border:none;
+    background-color: white;
+}
+.yt-icon img{
+    width: 80px;
+    height: 80px;
+}
+.bars span{
+    font-size: 10px;
+}
+.microphone{
+    border: none;
+    margin-left: 5px;
+}
+.infor i{
+    margin: 0px 20px;
+}
+.search form{
+    border: 1px solid #ddd;
+    display: flex;
+}
+.header .search input{
+    width: 500px;
+    padding: 5px;
+    margin: 0px;
+    border: none;
+    border-radius: 0px;
+}  
+.header .search button{
+    padding: 0px;
+    margin:0px;
+    height: 100%;
+    border:none;
+    border-radius: 0px;
+    width: 40px;
+}
+#sidebars{
+    height:100%;
+    width: 230px;
+    background-color: rgb(247, 241, 241);
+    margin-top: 56px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    box-sizing: border-box;
+    padding: 5px 10px;  
+    
+}
+#sidebars .sidebars-block1{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+#sidebars .sidebars-block1 button{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top:10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: auto;
+    outline:burlywood;
+
+} 
+#sidebars .sidebars-block1 button span{
+    margin-left: 15px;
+}
+#sidebars .sidebars-block2 button{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+#sidebars .sidebars-block3{
+    margin-top: 10px;
+}
+#sidebars .sidebars-block3 h1{
+    font-size: 16px;
+    color:rgb(70, 68, 68)
+}
+.main{
+    height: 100%;
+    margin-top: 56px;
+    margin-left: 230px;
+
+}
